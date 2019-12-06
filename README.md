@@ -12,11 +12,13 @@ $ gcloud config set project watchmen-mqtt
 
 ### Generate Account Key
 
-Navigate to service account. Then click ***Generate New Private Key***. This action will create a JSON file that contains your service's account credentials, which will use to initialize the Firebase SDK. 
+Navigate to service account [here][1]. Then click ***Generate New Private Key***. This action will create a JSON file that contains your service's account credentials, which will use to initialize the Firebase SDK. 
 
 [IMAGE][TODO]
 
 Note: This credential file is best to be kept in local machine or in private repository **ONLY**.
+
+[1]: https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk
 
 ### Deploy Cloud Function in Local Machine
 
