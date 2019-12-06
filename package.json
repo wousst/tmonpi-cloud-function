@@ -2,8 +2,8 @@
     "name": "tmonpi-cloud-function",
     "version": "0.0.1",
     "dependencies": {
-        "@google-cloud/pubsub": "*",
-        "firebase-functions": "*",
-        "firebase-admin": "*"
+        "@google-cloud/pubsub": "^1.1.6",
+        "firebase-admin": "^8.8.0",
+        "firebase-functions": "^3.3.0"
     }
 }
