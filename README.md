@@ -2,15 +2,17 @@ tmonpi Cloud Function
 =====================
 This Pub/Sub cloud function triggers when temperature data receives at the Pub/Sub, and then store the current value into firebase database. 
 
-### Pre-requisite
-
-1. Make sure to subscribe to your project with Google Cloud SDK Shell. 
+### 1. Cheat Sheet
 
 ```
-$ gcloud config set project watchmen-mqtt
+$ gcloud auth login
+$ gcloud config set project <your-project>
+$ cd <your-cloud-function-directory>
+$ npm install -g firebase-tools
+$ gcloud functions deploy tmonpi --runtime nodejs8 --trigger-topic tmonpi-topic --region asia-east2
 ```
 
-### Generate Account Key
+### 2. Generate Account Key
 
 Navigate to service account [here][1]. Then click ***Generate New Private Key***. This action will create a JSON file that contains your service's account credentials, which will use to initialize the Firebase SDK. 
 
