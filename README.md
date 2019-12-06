@@ -48,6 +48,11 @@ updateTime: 'XXXX-XX-XXXXX:XX:XXX'
 versionId: '3'
 ```
 
+### Deploy Cloud Functions from Source Control. 
+
+1. The details is described [here][1]. 
+
+[1]: https://cloud.google.com/functions/docs/deploying/repo
 
 Author
 ------
