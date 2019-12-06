@@ -12,9 +12,3 @@
 # below:
 .git
 .gitignore
-
-# Dependencies directory
-node_modules
-
-# Account Credential directory
-credentials

@@ -11,7 +11,7 @@ var functions = require('firebase-functions');
 var admin = require('firebase-admin');
 
 // Load service account key
-var serviceAccount = require('./credential/watchmen-mqtt-firebase-adminsdk-5gkqy-ab2042ea69.json');
+var serviceAccount = require('./credentials/watchmen-mqtt-7a0423b22e.json');
 
 // [START function_pubsub_setup]
 const {PubSub} = require('@google-cloud/pubsub');
