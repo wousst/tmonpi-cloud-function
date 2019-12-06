@@ -12,12 +12,3 @@
 # below:
 .git
 .gitignore
-
-# Dependencies directory
-node_modules
-
-# Account Credential directory
-credentials
-
-# Remove package-lock.json
-package-lock.json
