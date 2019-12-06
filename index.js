@@ -36,11 +36,3 @@ exports.tmonpiCloudFunction = pubsubMessage => {
     console.log(Buffer.from(pubsubMessage.data, 'base64').toString());
 };
 // [END functions_pubsub_subscribe]
-
-// Procedure :- DEPRECATED 
-// exports.cftriggerPubSub = (data, context) => {
-//     const pubSubMessage = data;
-//     const name = pubSubMessage.data ? Buffer.from(pubSubMessage.data, 'base64').toString() : 'World!';
-
-//     console.log(`hello, ${name}; timestamp: ${context.timestamp}`);
-// };
