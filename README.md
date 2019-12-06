@@ -26,7 +26,7 @@ Note: This credential file is best to be kept in local machine or in private rep
 $ cd "C:\Users\hdx\Documents\GitHub\tmonpi-cloud-function"
 ```
 
-2. Check the name of cloud function by inspecting the similar code section below. In this case, the name of cloud function is **tmonpiCloudFunction**. 
+2. Check the name of cloud function by inspecting the similar code section below. In this case, the name of cloud function is ***tmonpiCloudFunction***. 
 
 ```
 exports.tmonpiCloudFunction = ....
