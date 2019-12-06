@@ -18,3 +18,6 @@ node_modules
 
 # Account Credential directory
 credentials
+
+# Remove package-lock.json
+package-lock.json
