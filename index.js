@@ -11,7 +11,7 @@ var functions = require('firebase-functions');
 var admin = require('firebase-admin');
 
 // Load service account key
-var serviceAccount = require('./watchmen-mqtt-01eddebe3bbf.json');
+var serviceAccount = require('./credential/watchmen-mqtt-firebase-adminsdk-5gkqy-ab2042ea69.json');
 
 // [START function_pubsub_setup]
 const {PubSub} = require('@google-cloud/pubsub');
@@ -31,7 +31,7 @@ admin.initializeApp({
  * @param {object} pubsubMessage - The Cloud Pub/Sub Message object. 
  * @param {object} pubsubMessage.data - The "data" property of the Cloud Pub/Sub Message. 
  * */
-exports.subscribe = pubsubMessage => {
+exports.tmonpiCloudFunction = pubsubMessage => {
     // Print out the data from Pub/Sub
     console.log(Buffer.from(pubsubMessage.data, 'base64').toString());
 };

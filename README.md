@@ -38,6 +38,15 @@ exports.tmonpiCloudFunction = ....
 $ gcloud functions deploy tmonpiCloudFunction --runtime nodejs8 --trigger-topic tmonpi-topic --region asia-east2
 ```
 
+4. If the deployment returns successful, you may see the similar output as below:
+
+```
+...
+status: ACTIVE
+timeout: 60s
+updateTime: 'XXXX-XX-XXXXX:XX:XXX'
+versionId: '3'
+```
 
 
 Author
