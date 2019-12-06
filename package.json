@@ -1,5 +1,5 @@
 {
-    "name": "cftrigger",
+    "name": "tmonpi-cloud-function",
     "version": "0.0.1",
     "dependencies": {
         "@google-cloud/pubsub": "*",
