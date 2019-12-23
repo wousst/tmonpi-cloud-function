@@ -10,6 +10,8 @@
 var functions = require('firebase-functions');
 var admin = require('firebase-admin');
 
+const db = admin.database();
+
 // Load service account key
 var serviceAccount = require('./credentials/watchmen-mqtt-7a0423b22e.json');
 
@@ -31,8 +33,25 @@ admin.initializeApp({
  * @param {object} pubsubMessage - The Cloud Pub/Sub Message object. 
  * @param {object} pubsubMessage.data - The "data" property of the Cloud Pub/Sub Message. 
  * */
-exports.tmonpiCloudFunction = pubsubMessage => {
+exports.tmonpiCloudFunction = (data, context) => {
     // Print out the data from Pub/Sub
+    const pubsubMessage = data;
+    const name = pubsubMessage.data;
     console.log(Buffer.from(pubsubMessage.data, 'base64').toString());
+
+    const message = {
+        name: "test", 
+        version: "1.1.1"
+    };
+
+    return Promise.all([
+        updateFirebase(message)
+    ]);
 };
 // [END functions_pubsub_subscribe]
+
+function updateFirebase(message) {
+return db.ref(`/devices/${message.name}`).set({
+    version: message.version
+});
+};

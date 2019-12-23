@@ -1,0 +1,32 @@
+[debug] [2019-12-20T07:15:00.686Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T07:15:00.688Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mdnorhadrih.WOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2019-12-20T07:15:00.688Z] CLI Version:   7.11.0
+[debug] [2019-12-20T07:15:00.688Z] Platform:      win32
+[debug] [2019-12-20T07:15:00.688Z] Node Version:  v10.15.3
+[debug] [2019-12-20T07:15:00.689Z] Time:          Fri Dec 20 2019 15:15:00 GMT+0800 (Singapore Standard Time)
+[debug] [2019-12-20T07:15:00.689Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T07:15:00.689Z] 
+[debug] [2019-12-20T07:15:00.732Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-20T07:15:00.733Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\mdnorhadrih.WOU\Documents\GitHub\tmonpi-cloud-function\functions" for Cloud Functions...
+[debug] [2019-12-20T07:15:02.305Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2019-12-20T07:15:02.305Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2019-12-20T07:15:02.306Z] [worker-pool] submitWork(triggerId=)
+[debug] [2019-12-20T07:15:02.306Z] [worker-~diagnostic~-45282aa2-57ac-48de-91ee-1dd305a412a9]: Assigning socketPath: \\?\pipe\C:\Users\mdnorhadrih.WOU\Documents\GitHub\tmonpi-cloud-function\functions\1904
+[debug] [2019-12-20T07:15:02.306Z] [worker-~diagnostic~-45282aa2-57ac-48de-91ee-1dd305a412a9]: BUSY
+[debug] [2019-12-20T07:15:02.737Z] [runtime-status] [1904] Functions runtime initialized. {"cwd":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions","node_version":"10.15.3"}
+[debug] [2019-12-20T07:15:02.738Z] [runtime-status] [1904] Disabled runtime features: undefined
+[debug] [2019-12-20T07:15:02.756Z] [runtime-status] [1904] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-20T07:15:02.764Z] [runtime-status] [1904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-20T07:15:06.555Z] [runtime-status] [1904] Found google-gax at C:\Users\mdnorhadrih.WOU\Documents\GitHub\tmonpi-cloud-function\functions\node_modules\google-gax\build\src\index.js
+[debug] [2019-12-20T07:15:06.555Z] [runtime-status] [1904] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2019-12-20T07:15:07.150Z] [runtime-status] [1904] Checked functions.config() {"config":{}}
+[debug] [2019-12-20T07:15:07.151Z] [runtime-status] [1904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-20T07:15:07.151Z] [runtime-status] [1904] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-12-20T07:15:07.152Z] [runtime-status] [1904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-12-20T07:15:07.699Z] [runtime-status] [1904] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.0","resolution":"C:\\Users\\mdnorhadrih.WOU\\Documents\\GitHub\\tmonpi-cloud-function\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[info] +  All emulators started, it is now safe to connect.
+[debug] [2019-12-20T07:15:07.709Z] [worker-~diagnostic~-45282aa2-57ac-48de-91ee-1dd305a412a9]: IDLE
